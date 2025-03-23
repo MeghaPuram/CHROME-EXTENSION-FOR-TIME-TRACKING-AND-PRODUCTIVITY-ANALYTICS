@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Time Tracker</title>
+    
+    <style>      
+        body {font-family: Arial, sans-serif;  align-items: center; justify-content: center; text-align: center;  padding: 10px; }
+        h2 { align-items: center; justify-content: center; margin-bottom: 10px; padding: 5px 5px; }
+        button { padding: 5px 5px; cursor: pointer; color: white; background-color: rgb(76, 76, 216);}
+        th,td{border: 1px white;}
+
+    </style>
+</head>
+<body>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js" src="jscript/graph.js"></script>
+    
+    <h1>TRACKS THE TIME
+        SPENT ON DIFFERENT WEBSITES</h1>
+        <hr>
+    <h2>Weekly Productive Analysis Report</h2>
+    <button id="refresh">Get Data</button>
+    <canvas id="myChart" width="60" height="60" style="width: 10px; height: 10px;"></canvas>
+    <h2>Tracked Websites</h2>
+
+    <table style=" align:center; margin-left:auto; margin-right: auto; width: 100%;">
+        <thead style="background-color: rgb(147, 140, 140);">
+            <tr >
+            <th>Website</th>
+            <th>Time Spent(sec)</th>
+            <th>Timestamp</th>
+        </tr>
+        </thead>
+        <tbody style="background-color: rgb(197, 189, 189);" id="websiteList">
+            <tr><td colspan="2">Loading...</td></tr>
+        </tbody>
+    </table>
+         
+    <script src="website.js"></script>
+    
+    <script src="popup.js"></script>
+    
+</body>
+</html>
