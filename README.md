@@ -13,6 +13,7 @@ BATCH DURATION : FEBRUARY 15TH, 2025 TO MARCH 15TH, 2025
 MENTOR NAME : NEELA SANTOSH KUMAR
 
 
+### DESCRIPTION
 The Chrome Extension Website Time Tracker is a productivity-enhancing tool that monitors the time users spend on different websites. It tracks browsing activities, classifies websites as productive or unproductive, and provides weekly productivity reports using a simple dashboard interface. The extension runs in the background and automatically logs website usage time, sending the data to a backend server for storage and analytics.
 
 
